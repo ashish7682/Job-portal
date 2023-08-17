@@ -1,0 +1,112 @@
+/* demo page styles */
+body {
+    background:#1B43E2;
+    margin:0;
+    padding:0;
+	
+}
+.example {
+    position:relative;
+   background:#1B43E2;
+ 
+    height:40px;
+    border:0px #000 solid;
+    margin:0px auto;
+    padding:0px;
+    border-radius:0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+}
+
+/* main menu styles */
+#nav,#nav ul {
+	
+	font-family:verdana;
+
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+#nav {
+	width:100%;
+	height:40px;
+	overflow:hidden;
+	top:0;
+}
+#nav li {
+	float:left;
+	position:relative;
+	z-index:10;
+}
+#nav li a {
+	background:#1B43E2 no-repeat center top;
+	color:#fff;
+	display:block;
+	
+	font-size:14px; font:bold;
+  
+	height:40px;
+	line-height:40px;
+	padding:0 10px;
+	position:relative;
+	text-decoration:none;
+	z-index:10;
+}
+#nav li:first-child a {
+	background:#000000 no-repeat left top;
+	padding-left:0px;
+	padding:0 0px;
+}
+#nav li ul li:first-child a {
+	background-image:none;
+	padding-left:10px;
+}
+#nav li.pad {
+	background:#000000 no-repeat right top;
+	display:block;
+	height:41px;
+	width:35px;
+	
+}
+#nav ul {
+	background:#000000;
+	height:auto;
+	padding:5px 0;
+	position:absolute;
+	top:-115px;
+	width:240px;
+	z-index:1;
+     border:2px #FF0000 solid;
+	border-radius:8px; /*some css3*/
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	transition:0.8s ease-in-out;
+	box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+	-moz-transition:0.8s ease-in-out;
+	-o-transition:0.8s ease-in-out;
+	-webkit-transition:all 0.8s ease-in-out;
+}
+#nav ul li {
+	width:220px;
+}
+#nav ul li a {
+	background:#000000;
+	height:25px;
+	line-height:25px;
+	width:220px;
+	
+}
+#nav:hover {
+	height:200px;
+}
+#nav li:hover ul {
+	-moz-transform:translate(0,161px); /*some css3*/
+	-o-transform:translate(0,161px);
+	-webkit-transform:translate(0,161px);
+}
+#nav a:hover,#nav li:hover > a {
+	color:#99ff33;
+}

@@ -1,0 +1,39 @@
+ul#css3menu1,ul#css3menu1 ul{
+	margin:0;list-style:none;padding:0;  border-width:0px;border-style:solid;border-color:#FF0000;-moz-border-radius:0px;-webkit-border-radius:0px;border-radius:0px;}
+ul#css3menu1 ul{
+	display:none;position:absolute;left:0;top:100%;-moz-box-shadow:0px 0px 0px #000000;-webkit-box-shadow:0px 0px px #9900CC;box-shadow:0px 0px 0px #000000; background-color:#000000; border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;border-color:#FF0000;padding:0 0px 0px;}
+ul#css3menu1 li:hover>*{
+	display:block;}
+ul#css3menu1 li{
+	position:relative;display:block;white-space:nowrap;font-size:0;float:left;}
+ul#css3menu1 li:hover{
+	z-index:1;}
+ul#css3menu1 ul ul{
+	position:absolute;left:100%;top:0;}
+ul#css3menu1{
+	font-size:0;z-index:999;position:relative;display:inline-block;zoom:0;padding:0;
+	*display:inline;}
+* html ul#css3menu1 li a{
+	display:inline-block;}
+ul#css3menu1>li{
+	margin:0;}
+ul#css3menu1 a:active, ul#css3menu1 a:focus{
+	outline-style:none;}
+ul#css3menu1 a{
+	display:block;vertical-align:middle;text-align:left;text-decoration:none;font:bold 12px Arial, Helvetica, sans-serif;color:#FFFFFF;cursor:pointer;padding:0px;background-color: #0099FF; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold;background-repeat:repeat;background-position:0 0;border-width:0 0 0 0px;border-style:solid;border-color:#FFF;}
+ul#css3menu1 ul li{
+	float:none;margin:0px 0 0;}
+ul#css3menu1 ul a{
+	text-align:left;padding:0px;background-color:#0099FF;background-image:none;border-width:0;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;font: bold 14px Arial, Helvetica, sans-serif;color:#0000FD;text-decoration:none;}
+ul#css3menu1 li:hover>a,ul#css3menu1 li a.pressed{
+	background-color:#0099FF;border-color:#CCCC99;border-style:solid;color:#0000FD;text-shadow:#000000 0 0 0px;background-image:none;background-position:0 0px;text-decoration:none;}
+ul#css3menu1 span{
+	display:block;overflow:visible;background-position:right center;background-repeat:no-repeat;padding-right:0px;}
+ul#css3menu1 ul span{
+	background-image:none;padding-right:0px;}
+ul#css3menu1 ul li:hover>a,ul#css3menu1 ul li a.pressed{
+	background-image:none;color:#FFFFFF;text-decoration:none;}
+ul#css3menu1 li.topfirst>a{
+	border-radius:0px 0 0 0px;-moz-border-radius:0px 0 0 0px;-webkit-border-radius:0px;-webkit-border-top-right-radius:0;-webkit-border-bottom-right-radius:0;}
+ul#css3menu1 li.toplast>a{
+	border-radius:0 0px 0px 0;-moz-border-radius:0 0px 0px 0;-webkit-border-radius:0;-webkit-border-top-right-radius:0px;-webkit-border-bottom-right-radius:0px;}
