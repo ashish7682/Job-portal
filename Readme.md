@@ -1,5 +1,5 @@
 # Job portal 
-Cotton student project
+ student project
 
 ## Database table
 1. Recuiter
